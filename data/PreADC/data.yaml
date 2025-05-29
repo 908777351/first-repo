@@ -1,0 +1,14 @@
+path: /Users/leo/ultralytics/PreADC  # 数据集根目录
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['03_intrusion', 'nonvisual']
+
+roboflow:
+  workspace: objectdection-ao931
+  project: adc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/objectdection-ao931/adc/dataset/1
